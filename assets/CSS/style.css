@@ -9,3 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.heading {
+    color: rgb(65, 154, 28);
+    text-align: center;
+}
