@@ -13,3 +13,20 @@
     color: rgb(65, 154, 28);
     text-align: center;
 }
+
+/* jumbotron styling */
+.jumbotron {
+    background-color: rgb(236, 240, 241);
+    text-align: center;
+         
+}
+.display-3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 4em;
+}
+.lead {
+    font-family: "Raleway", sans-serif;
+}
+.btn-lg {
+    background-color: rgb(65, 154, 28);
+}
