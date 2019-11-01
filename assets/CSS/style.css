@@ -30,3 +30,12 @@
 .btn-lg {
     background-color: rgb(65, 154, 28);
 }
+
+.fixed-image2 {
+    background-image: url(../Images/dumbbells\ runners\ pixabay.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
