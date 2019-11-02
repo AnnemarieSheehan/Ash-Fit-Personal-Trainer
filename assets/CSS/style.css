@@ -39,16 +39,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
 #about {
-    margin: 20px; 10px; 
+    background-color: rgb(236, 240, 241);
+    padding-top: 2em;
 }
 
-.about {
-    background-color: rgb(65, 154, 28);
-    margin: 20px; 10px;
-}
-
-.card-deck {
-    margin: 20px; 10px; 
+.services {
+    padding-top: 2em;
 }
