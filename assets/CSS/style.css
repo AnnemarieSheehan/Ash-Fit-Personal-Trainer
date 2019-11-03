@@ -49,3 +49,16 @@
 .services {
     padding-top: 2em;
 }
+#contact {
+    background-attachment: fixed;
+    background-image: url(../Images/dumbbell-1966702_640.jpg);
+    opacity: 0.5;
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    margin-bottom: 30px;
+}
+.form {
+    color: rgb(65, 154, 28);
+}
