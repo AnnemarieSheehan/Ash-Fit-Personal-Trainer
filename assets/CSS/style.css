@@ -1,6 +1,8 @@
 
-/*fixed image style */
+/*fixed image style note this was changed to large image */
 
+
+/*
 .fixed-image {
     background-image: url(../Images/woman.jpg);
     padding: 100px;
@@ -14,11 +16,41 @@
     color: rgb(65, 154, 28);
     text-align: center;
 }
+*/
 
-/* jumbotron styling */
+/* new styling */
+
+#home {    
+    color: white;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    flex-direction: column;    
+    min-height: 100vh;    
+    background: url(../Images/woman.jpg) no-repeat center center; 
+}
+
+#brand-image {    
+    height: 120px;    
+    width: auto; 
+} 
+
+.nav-bar-hover {    
+    top: 0;    
+    left: 0;    
+    width: 100%;    
+    background: rgba(255,255,255, 0.2);    
+    position: absolute; 
+} 
+
+
+
+
+/* jumbotron styling note jumbotron removed*/
 .jumbotron {
-    background-image: linear-gradient(to right, #F0F7D4,silver);
+    background-color: #f1f1f1;
     text-align: center;
+    color: rgb(65, 154, 28);
          
 }
 
@@ -44,8 +76,9 @@
 }
 
 #about {
-    background-image: linear-gradient(to right, #F0F7D4,silver);
+    background-color: whitesmoke;
     padding-top: 2em;
+    
 }
 
 /* services cards styling */
