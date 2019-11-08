@@ -26,7 +26,7 @@
     justify-content: center;    
     align-items: center;    
     flex-direction: column;    
-    min-height: 100vh;    
+    min-height: 130vh;    
     background: url(../Images/woman.jpg) no-repeat center center; 
 }
 
@@ -35,32 +35,15 @@
     width: auto; 
 } 
 
+
 .nav-bar-hover {    
     top: 0;    
     left: 0;    
     width: 100%;    
-    background: rgba(255,255,255, 0.2);    
+    background: rgba(255,255,255, 0.2);  
     position: absolute; 
 } 
 
-
-
-
-/* jumbotron styling note jumbotron removed*/
-.jumbotron {
-    background-color: #f1f1f1;
-    text-align: center;
-    color: rgb(65, 154, 28);
-         
-}
-
-.display-3 {
-    font-family: "Raleway", sans-serif;
-    font-size: 4em;
-}
-.lead {
-    font-family: "Raleway", sans-serif;
-}
 .btn-lg {
     background-color: rgb(65, 154, 28);
 }
@@ -83,11 +66,10 @@
 
 /* services cards styling */
 
-.services {
-    text-decoration-color: deepskyblue;
-    text: center;
+.service {
+    text-align: right;
 }
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -107,7 +89,7 @@
         
 } 
 
-  /* This container is needed to position the front and back side */
+  /* position the front and back */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -117,12 +99,12 @@
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* horizontal flip on hover */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
+  /* Position of the cards */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -130,7 +112,7 @@
     backface-visibility: hidden;
   }
   
-  /* Style the front side (fallback if image is missing) */
+  /* Style the front side if image is missing */
   .flip-card-front {
     background-color: #bbb;
     color: black;
@@ -142,9 +124,48 @@
     color: white;
     transform: rotateY(180deg);
   }
+/* flip card background */
 
-
-#contact {
-    background-color: silver;
+.flip-card-back {
+    background-color: rgb(65, 154, 28);
 }
 
+#contact {
+    background-image: url(../Images/email-1435687_640.png);
+    
+}
+
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; 
+    height: 200px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
