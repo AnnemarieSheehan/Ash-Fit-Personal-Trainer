@@ -8,7 +8,14 @@
     align-items: center;    
     flex-direction: column;    
     min-height: 130vh;    
-    background: url(../Images/woman.jpg) no-repeat center center; 
+    height: auto;
+    background: url(../Images/woman.jpg) no-repeat center center;
+
+    
+}
+
+.btn {
+    text-align: center;
 }
 
 /* adjust the logo size */
@@ -125,7 +132,8 @@
 .footer {
     background-color: rgb(69, 67, 68);
     color: white;
-    height: 150px;
+    height: auto;
+    margin: auto;
 }
 
 #footer-image {    
