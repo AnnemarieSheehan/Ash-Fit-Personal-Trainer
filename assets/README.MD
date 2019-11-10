@@ -30,7 +30,7 @@ I chose a dark to light colour scheme to make the site striking and dramatic to 
 ### Existing Features
 I added a fixed image background that has a parralax effect. 
 I used the flip cards feature in Bootstrap to make the services cards flip on hover for further inforation. 
-DID YOU PUT THE FEATURE IN THAT MAKES THE TOP IMAGE 'MOVE' TOWARDS YOU?? IF SO ADD THAT HERE
+
 
 ### Features left to Implement
 In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas. 
@@ -39,7 +39,10 @@ In the future I would like to implement the full parallax scrollopsy feature. I 
 
 *HTML
 CSS
-Bootstrap
+Bootstrap (https://getbootstrap.com/)
+Visual Studio Code (https://code.visualstudio.com/) 
+Git (https://git-scm.com/) 
+Font Awesome (https://fontawesome.com/) 
 Flex*
 
 
@@ -53,7 +56,14 @@ Peer Code Review on Slack*
 2. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was "A cookie associated with a cross-site resource at http://fontawesome.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032." As I don't fully understand this, further investigation is required. 
 
 ## Deployment 
- 
+ The site was deployed to github pages from Visual Studio Code as follows:
+ 1. Log into my GitHub account
+ 2. Choose the relevant repositry
+ 3. Ensure all changes have been pushed from VS to GitHub
+ 4. Click on the settings tab
+ 5. Go to the GitHub pages section
+ 6. Select the master-branch 
+ 7. GitHub provides you with a deployed site address
 
 ## Credits
 
