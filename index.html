@@ -13,19 +13,18 @@
   <script src="https://kit.fontawesome.com/d66f76a5e5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/CSS/style.css">
 
-
 </head>
-
 <body>
 
 
   <!--Navigation Section-->
+  <!--boostrap navbar placed over main site image-->
   <Main>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black nav-bar-hover">
       <a class="navbar-brand" href="#">
         <img id="brand-image" src="assets/Images/Ashfitlogo2.png" alt="logo">
       </a>
-    </a>
+  
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
       aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -34,23 +33,24 @@
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#service">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 </Main>
 
-  <!--Fixed Background Section-->
+  <!--Background image-->
+  
 
   <section id="home">
     <hr class="my-4">
@@ -62,21 +62,6 @@
    </section>
 
 
-
-
-<!--
-  <div class="fixed-image">
-    <div class="heading">
-      <h1>Train and Compete to your Optimum Level</h1>
-    </div>
-This was changed to larger image with navbar ontop
-  </div>
-  !-->
-
-
-
-
-  
 
   <!--About Section-->
 
@@ -98,24 +83,25 @@ This was changed to larger image with navbar ontop
     </div>
   </section>
 
-<!--fixed background 2-->
+<!--fixed background -->
+<!--parallax style effect-->
 <hr class="my-4">
 <div class="fixed-image2">
     <div class="heading2">
-
     </div>
-
-  </div>
-
+</div>
 
 
 
-  <!--Cards Section-->
+
+  <!--Services Section-->
+  <!--bootstrap container cards with background image and flip effects-->
   <hr class="my-4">
-  <Section class="cards">
+  <section id="service">
   <div class="container-fluid">
     <h1 class="text-center">SERVICES</h1>
     </div>
+  </section>
     <hr class="my-4">
 <div class="container cards">
   <div class="row">
@@ -134,7 +120,6 @@ This was changed to larger image with navbar ontop
               <li>Deep Tissue Massage</li>
               <li>Maintainance Massage</li>
               <li>Post Event Recovery Massge</li>
-              
             </ul>
           </div>
         </div>
@@ -172,8 +157,9 @@ This was changed to larger image with navbar ontop
         </div> 
       </div> 
 </div> 
-</Section>
+
   <!--Contact Section-->
+  <!--bootstrap contact form over background image-->
   
   <hr class="my-4">
   <section class="Form" id="contact">
@@ -211,22 +197,32 @@ This was changed to larger image with navbar ontop
     </section>
 
   <!--Footer and Social Media Section-->
+  <!--logo and font awesome social media icons-->
   <hr class="my-4">
-  <Section class="footer">
-  <footer class="container-fluid bg-4 text-center footer">
-    <div class="row">
-      <div class="col-12">
-      <p>Ash Fit</p>
-        email: ash@xyz.com
-        Address 1234
+  <footer>
+  <div class="container-fluid footer">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <a class="footer-brand" href="#">
+                <img id="footer-image" src="assets/Images/Ashfitlogo2.png" alt="logo">
+              </a>
+         </div> 
+         <div class="col-md-4">
+            <p class="lead">Ash Fit</p>
+            <p>Bray</p>
+            <p>Co. Wicklow</p>
+            <p>email ashfit@gmail.com</p>
+          </div> 
+      <div class="col-md-4  ">
+        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+        <i class="fab fa-skype" aria-hidden="true"></i>
       </div>
-    </div>
-      <div class="row">
-          <i class="fa fab fa-facebook"></i>
+      
+      
     </div>
   </div>
-    </footer>
-  </Section>
+</footer>
 
 
   <!-- Optional JavaScript -->
