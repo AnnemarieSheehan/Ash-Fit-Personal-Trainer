@@ -2,7 +2,7 @@
 /* home image styling */
 
 #home {    
-    color: white;    
+    color: #fff;    
     display: flex;    
     justify-content: center;    
     align-items: center;    
@@ -38,7 +38,7 @@
 }
 
 /*parallax affect image styling */
-.fixed-image2 {
+#fixed-image {
     background-image: url(../Images/dumbbell-1966702_640.jpg);
     padding: 100px;
     height: 300px;
@@ -50,7 +50,7 @@
 
 /* about section style */
 #about {
-    background-color: whitesmoke;
+    background-color: #fff;
     padding-top: 2em;
     
 }
@@ -111,7 +111,7 @@
   /* Style the back side */
   .flip-card-back {
     background-color: dodgerblue;
-    color: white;
+    color: #fff;
     transform: rotateY(180deg);
   }
 /* flip card background */
@@ -123,15 +123,16 @@
 /* contact form background image */
 #contact {
     background-image: url(../Images/email-1435687_640.png);
+    padding: 50px; 
     
 }
 
 
 /*footer styling */
 
-.footer {
+footer {
     background-color: rgb(69, 67, 68);
-    color: white;
+    color: #fff;
     height: auto;
     margin: auto;
 }
