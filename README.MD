@@ -43,6 +43,7 @@ Bootstrap (https://getbootstrap.com/)
 Visual Studio Code (https://code.visualstudio.com/) 
 Git (https://git-scm.com/) 
 Font Awesome (https://fontawesome.com/) 
+Tiny Jpeg (www.tinyjpeg.com) to optimise images 
 Flex*
 
 
@@ -53,7 +54,7 @@ Google Chrome developer tools
 Peer Code Review on Slack*
 
 1. W3Schools Validator. I pasted the HTML from my project into the validator and got 8 warnings. These included spaces in image names, errors in the contact form where names did not match ID's as well as some h1 warnings. I amended the errors and reposted the code. I then pasted the CSS code and ran the validation again, this time finding 8 errors although they all related to a one duplicate line which, when removed showed no errors. 
-2. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was "A cookie associated with a cross-site resource at http://fontawesome.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032." As I don't fully understand this, further investigation is required. 
+1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was "A cookie associated with a cross-site resource at http://fontawesome.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032." As I don't fully understand this, further investigation is required. 
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
