@@ -12,9 +12,11 @@ html {
     flex-direction: column;    
     min-height: 130vh;    
     height: auto;
+    width: 100%;
     background: url(../Images/woman.jpg) no-repeat center center;
-
+    background-size: 100% 100%; 
     
+        
 }
 
 .btn {
