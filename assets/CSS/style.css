@@ -1,4 +1,7 @@
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* home image styling */
 
 #home {    
@@ -57,8 +60,10 @@
 
 /* services cards styling */
 
-.service {
+#service {
     text-align: right;
+    padding-top: 10px;
+    
 }
 
 .flip-card {
@@ -124,7 +129,7 @@
 #contact {
     background-image: url(../Images/email-1435687_640.png);
     padding: 50px; 
-    
+       
 }
 
 
