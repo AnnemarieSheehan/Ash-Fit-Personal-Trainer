@@ -37,12 +37,13 @@ html {
     background: rgba(255,255,255, 0.2);  
     position: absolute; 
 } 
-
+/* navbar sticky removed as navbar is transparent and does not look good as sticky
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
     }
+*/
 
 .btn-lg {
     background-color: rgb(65, 154, 28);
