@@ -57,7 +57,9 @@
     <h1 class="display-4 text-center">Personal Trainer and Sports Therapist</h1><br>
     <p class="lead text-center">Want to run faster? Become Stronger? Improve Fitness?</p>
     <p class="lead text-center">Personally Tailored Plans to Train to Your Optimum Level</p>
-    <a class="btn btn-lg" href="#" role="button">Book an appointment now</a>
+    <form method="get" action="#book">
+     <button type="submit" class="btn btn-lg home-bottom-btn">Book an appointment now</button>
+      </form>
   </div>
     </section>
 
@@ -180,14 +182,14 @@
      <h2 class="text-center">Contact Form</h2>
         <div class="row">
           <div class="col-md-4">
-            <label for="form-name">Firstname</label>
+            <label for="form-name">First Name</label>
             <input type="text" class="form-control" id="form-name" placeholder="Enter name" name="name">
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <label for="lastname">Lastname</label>
-            <input type="text" class="form-control" id="lastname" placeholder="Enter lastname" name="lastname">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Enter last name" name="lastname">
           </div>
         </div>
         <div class="row">
@@ -199,11 +201,12 @@
         <div class="row">
           <div class="col-md-4">
             <label for="message">Enter your message here</label>
-            <textarea rows="5" name="text-area" class="form-control" placeholder="Type your message here" required=""></textarea>
+            <textarea rows="5" name="text-area" class="form-control" placeholder="Enter your message here" required=""></textarea>
             <br>
           </div>
         </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+        <div id="book">
+          <button type="submit" class="btn btn-success">Submit to book now</button>
         </div>
       </section>
   </main>
@@ -225,9 +228,9 @@
             <p>email ashfit@gmail.com</p>
           </div> 
       <div class="col-12 col-md-4">
-        <i class="fab fa-facebook-square" aria-hidden="true"></i>
-        <i class="fab fa-twitter-square" aria-hidden="true"></i>
-        <i class="fab fa-skype" aria-hidden="true"></i>
+        <p><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
+        <p><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></p>
+        <p><a href="https://www.skype.com" target="_blank"><i class="fab fa-skype"></i></a></p>
       </div>
       
       
