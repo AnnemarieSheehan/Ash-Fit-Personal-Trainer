@@ -38,6 +38,12 @@ html {
     position: absolute; 
 } 
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
 .btn-lg {
     background-color: rgb(65, 154, 28);
 }
