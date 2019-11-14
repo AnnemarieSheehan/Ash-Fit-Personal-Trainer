@@ -2,14 +2,21 @@ html {
     scroll-behavior: smooth;
   }
   
-/* home image styling */
-
-#home {    
+  #home {    
     color: #fff;    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
     display: flex;    
-    justify-content: center;    
-    align-items: center;    
-    flex-direction: column;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;    
+    -webkit-box-orient: vertical;    
+    -webkit-box-direction: normal;    
+        -ms-flex-direction: column;    
+            flex-direction: column;    
     min-height: 130vh;    
     height: auto;
     width: 100%;
@@ -100,13 +107,19 @@ html {
     width: 100%;
     height: 100%;
     text-align: center;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    -o-transition: transform 0.8s;
     transition: transform 0.8s;
-    transform-style: preserve-3d;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
   }
   
   /* horizontal flip on hover */
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
   }
   
   /* Position of the cards */
@@ -114,7 +127,8 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
   }
   
   /* Style the front side if image is missing */
@@ -127,7 +141,8 @@ html {
   .flip-card-back {
     background-color: #bbb;
     color: #fff;
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
   }
 /* flip card background */
 
@@ -146,7 +161,8 @@ html {
 }
 
 .flip-card {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
 
@@ -168,4 +184,3 @@ footer {
     font-size: 40px;
     margin: 10px; 
 }
-

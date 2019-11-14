@@ -48,6 +48,7 @@ In the future I would like to implement the full parallax scrollopsy feature. I 
 - [Font Awesome](https://fontawesome.com/) 
 - [Tiny Jpeg](www.tinyjpeg.com) to optimise images 
 - Flex
+- [CSSAutoprefixer](https://autoprefixer.github.io/)
 
 
 ## Testing
