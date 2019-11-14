@@ -5,6 +5,9 @@
 
 The website can be found [here](https://annemariesheehan.github.io/First-Milestone-Project/).
 
+![Website Snippet](https://github.com/AnnemarieSheehan/First-Milestone-Project/tree/master/assets/Images)
+
+
 The idea for the website came from a friends new business. The website was created to highlight her skills and the services available to potential customers. 
 
 ## UX

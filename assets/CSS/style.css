@@ -1,28 +1,28 @@
 html {
     scroll-behavior: smooth;
-  }
-  
-  #home {    
-    color: #fff;    
-    display: -webkit-box;    
-    display: -ms-flexbox;    
-    display: flex;    
-    -webkit-box-pack: center;    
-        -ms-flex-pack: center;    
-            justify-content: center;    
-    -webkit-box-align: center;    
-        -ms-flex-align: center;    
-            align-items: center;    
-    -webkit-box-orient: vertical;    
-    -webkit-box-direction: normal;    
-        -ms-flex-direction: column;    
-            flex-direction: column;    
-    min-height: 130vh;    
+}
+
+#home {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 130vh;
     height: auto;
     width: 100%;
     background: url(../Images/woman.jpg) no-repeat center center;
-    background-size: 100% 100%; 
-             
+    background-size: 100% 100%;
+
 }
 
 
@@ -32,21 +32,22 @@ html {
 }
 
 /* adjust the logo size */
-#brand-image {    
-    height: 120px;    
-    width: auto; 
-} 
+#brand-image {
+    height: 120px;
+    width: auto;
+}
 
 /* navbar styling */
-.nav-bar-hover {    
-    top: 0;    
-    left: 0;    
-    width: 100%;    
-    background: rgba(255,255,255, 0.2);  
-    position: absolute; 
-} 
-/* navbar sticky removed as navbar is transparent and does not look good as sticky
-.navbar {
+.nav-bar-hover {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+}
+
+/* navbar sticky removed as navbar is transparent and does not look good as sticky 
+.navbar - to be looked at for future projects {
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,7 +55,7 @@ html {
 */
 
 .btn-lg {
-    background-color: rgb(65, 154, 28);
+    background-color: #32cd32;
 }
 
 /*parallax affect image styling */
@@ -80,7 +81,7 @@ html {
 #service {
     text-align: right;
     padding-top: 10px;
-    
+
 }
 
 .flip-card {
@@ -88,21 +89,21 @@ html {
     width: 300px;
     height: 200px;
     border: 1px solid #f1f1f1;
-    
-  }
-  
-  .centered {
+
+}
+
+.centered {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 10px; 
-        
-} 
+    padding: 10px;
 
-  /* position the front and back */
-  .flip-card-inner {
+}
+
+/* position the front and back */
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -113,57 +114,65 @@ html {
     transition: transform 0.8s;
     transition: transform 0.8s, -webkit-transform 0.8s;
     -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-  }
-  
-  /* horizontal flip on hover */
-  .flip-card:hover .flip-card-inner {
+    transform-style: preserve-3d;
+}
+
+/* horizontal flip on hover */
+.flip-card:hover .flip-card-inner {
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
-  
-  /* Position of the cards */
-  .flip-card-front, .flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* Position of the cards */
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-  }
-  
-  /* Style the front side if image is missing */
-  .flip-card-front {
+    backface-visibility: hidden;
+}
+
+/* Style the front side if image is missing */
+.flip-card-front {
     background-color: #bbb;
     color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
+}
+
+/* Style the back side */
+.flip-card-back {
     background-color: #bbb;
     color: #fff;
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
+    transform: rotateY(180deg);
+}
+
 /* flip card background */
 
 .massage {
     background-color: #4f1f66;
 }
+
 .training {
     background-color: #32cd32;
 }
+
+.runcoach {
+    background-color: #4f1f66;
+}
+
 /* contact form background image */
 
 #contact {
     background-image: url(../Images/email-1435687_640.png);
-    padding: 50px; 
-       
+    padding: 50px;
+
 }
 
 .flip-card {
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 
 
 /*footer styling */
@@ -175,12 +184,13 @@ footer {
     margin: auto;
 }
 
-#footer-image {    
-    height: 120px;    
-    width: auto; 
-} 
+#footer-image {
+    height: 120px;
+    width: auto;
+}
+
 .fab {
-    color: #ffffff; 
+    color: #ffffff;
     font-size: 40px;
-    margin: 10px; 
+    margin: 10px;
 }
