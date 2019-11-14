@@ -21,6 +21,7 @@ html {
 
 .btn {
     text-align: center;
+    background-color: #32cd32;
 }
 
 /* adjust the logo size */
@@ -124,22 +125,29 @@ html {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #bbb;
     color: #fff;
     transform: rotateY(180deg);
   }
 /* flip card background */
 
-.flip-card-back {
-    background-color: rgb(65, 154, 28);
+.massage {
+    background-color: #4f1f66;
 }
-
+.training {
+    background-color: #32cd32;
+}
 /* contact form background image */
+
 #contact {
     background-image: url(../Images/email-1435687_640.png);
     padding: 50px; 
        
 }
+
+.flip-card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
 
 
 /*footer styling */
