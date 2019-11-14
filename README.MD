@@ -39,7 +39,7 @@ I used the flip cards feature in Bootstrap to make the services cards flip on ho
 
 
 ### Features left to Implement
-I had hoped to put some CSS transition code to get the main image to zoom in creating the effect of doing a situp but was limited by time on this. In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas such as the form. 
+I had hoped to put some CSS transition code to get the main image to zoom in creating the effect of doing a situp but was limited by time on this. In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas such as the form. It was also suggested that I use a sticky navbar, however, as my navbar is transparent, it does not create a good user experinece as a sticky. This is something I will work on and improve with future projects. 
 
 ## Technologies used
 
