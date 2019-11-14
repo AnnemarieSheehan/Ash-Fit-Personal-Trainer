@@ -29,7 +29,9 @@ This website is for any athlete or hobbiest sports person, whether runner, cycli
 
 
 ### Surface
-I chose a dark to light colour scheme to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading.  
+I chose a dark to light colour scheme to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading. The colour theme of Grey/Aubergine/Lime Green was chosen by the business owner. 
+
+All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. 
 
 ## Features
 
