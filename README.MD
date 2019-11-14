@@ -5,10 +5,10 @@
 
 The website can be found [here](https://annemariesheehan.github.io/First-Milestone-Project/).
 
-![Website Snippet](https://github.com/AnnemarieSheehan/First-Milestone-Project/tree/master/assets/images/websitesnip.png)
+![Website Snippet](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/websitesnip.png)
 
 
-The idea for the website came from a friends new business. The website was created to highlight her skills and the services available to potential customers. 
+The idea for the website came from a friends new business. The website was created to highlight her skills as a Sports Therapist, Personal Trainer and Coach, and the services available to potential customers. 
 
 ## UX
 
@@ -39,7 +39,7 @@ I used the flip cards feature in Bootstrap to make the services cards flip on ho
 
 
 ### Features left to Implement
-In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas. 
+I had hoped to put some CSS transition code to get the main image to zoom in creating the effect of doing a situp but was limited by time on this. In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas such as the form. 
 
 ## Technologies used
 
@@ -62,6 +62,7 @@ Peer Code Review on Slack*
 
 1. W3Schools Validator. I pasted the HTML from my project into the validator and got 8 warnings. These included spaces in image names, errors in the contact form where names did not match ID's as well as some h1 warnings. I amended the errors and reposted the code. I then pasted the CSS code and ran the validation again, this time finding 8 errors although they all related to a one duplicate line which, when removed showed no errors. 
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was "A cookie associated with a cross-site resource at http://fontawesome.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032." As I don't fully understand this, further investigation is required. 
+1. I posted my project in the Peer Code Review channel on Slack and got detailed feedback with multiple suggestions and corrections. For example fixing file names which had capital letters, removing unused classes and code, optimising images and much more. 
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
@@ -76,12 +77,12 @@ Peer Code Review on Slack*
 ## Credits
 
 ## Content 
-The content came from my creation and text from Ashling herself
+The content came from myelf and text from Ashling Smith, the business owner. 
 I created the logo using freelogodesign.org.
 
 ## Media
-The photos I used were obtained from Pixaby - information to follow
+The photos I used were obtained from [Pixaby](www.pixabay.com), a free images site. 
 
 ## Acknowledgements 
 
-Thanks to Ali and Anthony for their help and suggestions, thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. 
+Thanks to my mentor Ali his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. Special thanks to Anthony and Simen in the Code Institute Slack channels for their help and guidance on a variety of issues encountered. I used code from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](www.codepen.io/). 
