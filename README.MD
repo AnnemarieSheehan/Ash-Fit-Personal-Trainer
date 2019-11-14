@@ -1,6 +1,9 @@
+
 # Ash Fit Personal Trainer
 
 #### Code Institute Milestone 1 project
+
+The website can be found [here](https://annemariesheehan.github.io/First-Milestone-Project/).
 
 The idea for the website came from a friends new business. The website was created to highlight her skills and the services available to potential customers. 
 
@@ -37,14 +40,14 @@ In the future I would like to implement the full parallax scrollopsy feature. I 
 
 ## Technologies used
 
-*HTML
-CSS
-Bootstrap (https://getbootstrap.com/)
-Visual Studio Code (https://code.visualstudio.com/) 
-Git (https://git-scm.com/) 
-Font Awesome (https://fontawesome.com/) 
-Tiny Jpeg (www.tinyjpeg.com) to optimise images 
-Flex*
+- HTML
+- CSS
+- [Bootstrap](https://getbootstrap.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub](https://github.com) 
+- [Font Awesome](https://fontawesome.com/) 
+- [Tiny Jpeg](www.tinyjpeg.com) to optimise images 
+- Flex
 
 
 ## Testing
