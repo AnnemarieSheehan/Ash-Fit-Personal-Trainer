@@ -23,10 +23,6 @@ This website is for any athlete or hobbiest sports person, whether runner, cycli
 2. As a cyclist, I want access to regular, affordable sports massage therapy to keep my limbs supple for long bike rides and some seasonal racing. 
 3. As a woman looking to improve general health and fitness I'm not sure where to start, I'd like to find a professional who can guide me with general fitness, strength and nutrition. 
 
-### Skeleton 
-
-
-
 ### Surface
 I chose a dark to light colour scheme to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading. The colour theme of Grey/Aubergine/Lime Green was chosen by the business owner. 
 
@@ -74,7 +70,12 @@ Peer Code Review on Slack*
  6. Select the master-branch 
  7. GitHub provides you with a deployed site address
 
- My code is run locally using VS Code
+### To Deploy locally
+
+1. In the github repository click on the 'Clone or Download' button. 
+2. Copy the URL provided. 
+3. Open a bash terminal and move to your desired directory. 
+4. Type 'git clone' and paste in the URL.
 
 ## Credits
 
