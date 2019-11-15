@@ -84,6 +84,8 @@ Peer Code Review on Slack*
 The content came from myelf and text from Ashling Smith, the business owner. 
 I created the logo using freelogodesign.org.
 
+The javascript code to make the navbar logo hide on scroll was given to me by Eventyret_mentor from Code Institute Slack Community. 
+
 ## Media
 The photos I used were obtained from [Pixaby](www.pixabay.com), a free images site. 
 
