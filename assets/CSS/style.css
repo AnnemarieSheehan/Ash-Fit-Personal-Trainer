@@ -50,6 +50,12 @@ html {
     z-index: 99999999;
 }
 
+.sticky-top {
+    position: fixed;
+    top: 0;
+    z-index: 999999999999;
+
+    }
 
 .btn-lg {
     background-color: #32cd32;
