@@ -85,6 +85,9 @@ I created the logo using freelogodesign.org.
 ## Media
 The photos I used were obtained from [Pixaby](www.pixabay.com), a free images site. 
 
+## Code
+Inspiration for the flipcards came from [codepen](www.codepen.io). I adapted the code to match my own requirements and design. I also adapted various pieces of code from [W3Schools](https://www.w3schools.com/). The navbar and form came from [Bootstrap](https://getbootstap.com/) both adapted for my requirements. 
+
 ## Acknowledgements 
 
-Thanks to my mentor Ali his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. Special thanks to Anthony and Simen in the Code Institute Slack channels for their help and guidance on a variety of issues encountered. I used code from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](www.codepen.io/). 
+Thanks to my mentor Ali his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. Special thanks to Anthony and Simen in the Code Institute Slack channels for their help and guidance on a variety of issues encountered. I took inspiration from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](www.codepen.io/). 
