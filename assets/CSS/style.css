@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 #home {
     color: #fff;
     display: -webkit-box;
@@ -22,6 +23,7 @@ html {
     width: 100%;
     background: url(../Images/woman.jpg) no-repeat center center;
     background-size: 100% 100%;
+    padding: top 5px;
     
 
 }
@@ -38,7 +40,7 @@ html {
     width: auto;
 }
 
-/* navbar styling */
+/* navbar styling note: had tried navbar sticky but due to transparent navbar it did not look good and I removed it*/
 .nav-bar-hover {
     top: 0;
     left: 0;
@@ -47,13 +49,6 @@ html {
     position: absolute;
 }
 
-/* navbar sticky removed as navbar is transparent and does not look good as sticky 
-.navbar - to be looked at for future projects {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    }
-*/
 
 .btn-lg {
     background-color: #32cd32;
@@ -74,8 +69,12 @@ html {
 #about {
     background-color: #fff;
     padding-top: 2em;
+    padding-bottom: 10px;
 }
 
+.fixed-image {
+    padding: 5px; 
+}
 
 /* services cards styling */
 
