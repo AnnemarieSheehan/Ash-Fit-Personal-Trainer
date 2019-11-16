@@ -31,7 +31,7 @@ The site was arranged as a single scrolling page with links throughout that allo
 ### Surface
 I chose a dark to light colour scheme to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading. The colour theme of Grey/Aubergine/Lime Green was chosen by the business owner. 
 
-All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. [Website Mockup](Website-Mockup.png) [Ipad Pro](Ipad-pro.png) and [Mobile](mobilemockup.png). 
+All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. [Website Mockup](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/Website-Mockup.png) [Ipad Pro](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/Ipad-pro.png) and [Mobile](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/mobilemockup.png). 
 
 ## Features
 
@@ -59,9 +59,9 @@ I had hoped to put some CSS transition code to get the main image to zoom in cre
 
 ## Testing
 
-*W3Schools validator
-Google Chrome developer tools
-Peer Code Review on Slack*
+- W3Schools validator
+- Google Chrome developer tools
+- Peer Code Review on Slack
 
 1. W3Schools Validator. I pasted the HTML from my project into the validator and got 8 warnings. These included spaces in image names, errors in the contact form where names did not match ID's as well as some `h1` warnings. I amended the errors and reposted the code. I then pasted the CSS code and ran the validation again, this time finding 8 errors although they all related to a one duplicate line which, when removed showed no errors. 
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was *A cookie associated with a cross-site resource at [Fontawesome](http://fontawesome.com/) was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. As I don't fully understand this, further investigation is required*.
@@ -94,11 +94,11 @@ I created the logo using freelogodesign.org.
 The javascript code to make the navbar logo hide on scroll was given to me by Eventyret_mentor from Code Institute Slack Community. 
 
 ## Media
-All the images I used were obtained from [Pixaby](www.pixabay.com), a free images site apart from the photo of Ashling which she provided me with. 
+All the images I used were obtained from [Pixaby](https://www.pixabay.com/), a free images site apart from the photo of Ashling which she provided me with. 
 
 ## Code
-Inspiration for the flipcards came from [codepen](www.codepen.io). I adapted the code to match my own requirements and design. I also adapted various pieces of code from [W3Schools](https://www.w3schools.com/). The navbar and form came from [Bootstrap](https://getbootstap.com/) both adapted for my requirements. 
+Inspiration for the flipcards came from [codepen](https://www.codepen.io/). I adapted the code to match my own requirements and design. I also adapted various pieces of code from [W3Schools](https://www.w3schools.com/). The navbar and form came from [Bootstrap](https://getbootstap.com/) both adapted for my requirements. 
 
 ## Acknowledgements 
 
-Thanks to my mentor Ali his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. Special thanks to [Anthony](https://github.com/auxfuse) and [Simen](https://github.com/Eventyret) in the Code Institute Slack channels for their help and guidance on a variety of issues encountered. I took inspiration from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](www.codepen.io/). 
+Thanks to my mentor Ali his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. Special thanks to [Anthony](https://github.com/auxfuse) and [Simen](https://github.com/Eventyret) in the Code Institute Slack channels for their help and guidance on a variety of issues encountered. I took inspiration from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](https://www.codepen.io/). 
