@@ -198,6 +198,7 @@
 
 
     <section class="container-fluid form mt-4" id="contact">
+      <form action="#" method="post">
       <h2 class="text-center">Contact Form</h2>
       <div class="row">
         <div class="col-md-4">
@@ -227,9 +228,39 @@
         </div>
       </div>
       <div id="book">
-        <button type="submit" class="btn btn-success">Submit to book now</button>
+          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Click to Book</button>
+          
       </div>
+  
     </section>
+
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Thank you for contacting me</h4>
+        </div>
+        <div class="modal-body">
+          <p>I will respond to you as soon as possible.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+
+
+
+
+
+
+
   </main>
 
   <!--Footer and Social Media Section-->

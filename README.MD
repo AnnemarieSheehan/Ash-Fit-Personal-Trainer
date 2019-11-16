@@ -39,10 +39,11 @@ All the wireframe files can be found in the images folder of the project. Wirefr
 I added a fixed image background that has a parralax effect. 
 I used the flip cards feature in Bootstrap to make the services cards flip on hover for further inforation. 
 I used java script to make the logo dissapear on scroll.
+I used Bootstrap Modal for a pop up box when you click Submit to Book on the contact form 
 
 
 ### Features left to Implement
-I had hoped to put some CSS transition code to get the main image to zoom in creating the effect of doing a situp but was limited by time on this. In the future I would like to implement the full parallax scrollopsy feature. I would also add in Modals to allow pop up informaiton to display in key areas such as the form.
+I had hoped to put some CSS transition code to get the main image to zoom in creating the effect of doing a situp but was limited by time on this. In the future I would like to implement the full parallax scrollopsy feature. 
 
 ## Technologies used
 
