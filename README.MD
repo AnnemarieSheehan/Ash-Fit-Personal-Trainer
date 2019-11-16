@@ -94,7 +94,7 @@ I created the logo using freelogodesign.org.
 The javascript code to make the navbar logo hide on scroll was given to me by Eventyret_mentor from Code Institute Slack Community. 
 
 ## Media
-All the images I used were obtained from [Pixaby](https://www.pixabay.com/), a free images site apart from the photo of Ashling which she provided me with. 
+All the images I used were obtained from [Pixaby](https://pixabay.com/), a free images site apart from the photo of Ashling which she provided me with. 
 
 ## Code
 Inspiration for the flipcards came from [codepen](https://www.codepen.io/). I adapted the code to match my own requirements and design. I also adapted various pieces of code from [W3Schools](https://www.w3schools.com/). The navbar and form came from [Bootstrap](https://getbootstap.com/) both adapted for my requirements. 
