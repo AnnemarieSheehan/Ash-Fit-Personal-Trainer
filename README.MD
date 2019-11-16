@@ -2,7 +2,7 @@
 # Ash Fit Personal Trainer
 
 
-The website can be found [here](https://annemariesheehan.github.io/First-Milestone-Project/).
+The website can be found [here](https://annemariesheehan.github.io/Ash-Fit-Personal-Trainer/).
 
 ![Website Snippet](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/websitesnip.png)
 
